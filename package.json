@@ -1,0 +1,37 @@
+{
+  "name": "@glints/hapi-url-plugin",
+  "version": "1.0.0",
+  "description": "A plugin that attempts to construct a complete URL object for an incoming request.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": "https://github.com/glints-dev/hapi-url-plugin",
+  "author": "Wong Yong Jie <yjwong92@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc --declaration",
+    "clean": "rm -r dist/",
+    "tslint": "tslint --project .",
+    "test": "mocha --require ts-node/register/type-check --recursive \"src/**/*.spec.ts\""
+  },
+  "devDependencies": {
+    "@glints/tslint-rules": "^1.0.5",
+    "@types/chai": "^4.1.5",
+    "@types/hapi": "^17.0.19",
+    "@types/mocha": "^5.2.5",
+    "@types/sinon": "^5.0.2",
+    "chai": "^4.1.2",
+    "hapi": "^17.5.4",
+    "mocha": "^5.2.0",
+    "sinon": "^6.3.4",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3"
+  },
+  "peerDependencies": {
+    "hapi": "^17.5.4"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
