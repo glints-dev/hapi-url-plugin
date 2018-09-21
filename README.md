@@ -26,6 +26,15 @@ await hapiServer.register({
     numProxies: 1, // Optional, indicates the number of downstream proxies.
   },
 });
+
+// In a request handler:
+server.route({
+  ...
+  handler: (request, h) => {
+    // request.plugins.URLPlugin.url is a URL object.
+    return request.plugins.URLPlugin.url.pathname;
+  },
+});
 ```
 
 # Contribution Guidelines
