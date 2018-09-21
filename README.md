@@ -1,7 +1,7 @@
 # url-plugin [![npm version](https://badge.fury.io/js/%40glints%2Fhapi-url-plugin.svg)](https://badge.fury.io/js/%40glints%2Fhapi-url-plugin) [![Greenkeeper badge](https://badges.greenkeeper.io/glints-dev/hapi-url-plugin.svg)](https://greenkeeper.io/)
 
 By default, hapi does not have the complete URL information as sent from a
-a browser. Therefore, `request.url` doesn't provide information such as the
+browser. Therefore, `request.url` doesn't provide information such as the
 protocol used. This plugin attempts to check other sources such as the
 `X-Forwarded-Proto` header to construct a complete URL object.
 
