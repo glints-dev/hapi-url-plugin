@@ -1,6 +1,6 @@
 {
   "name": "@glints/hapi-url-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A plugin that attempts to construct a complete URL object for an incoming request.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -29,7 +29,7 @@
     "typescript": "^3.0.3"
   },
   "peerDependencies": {
-    "hapi": "^17.5.4"
+    "hapi": ">= 17"
   },
   "publishConfig": {
     "access": "public"
