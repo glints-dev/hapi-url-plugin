@@ -17,11 +17,11 @@
   "devDependencies": {
     "@glints/tslint-rules": "^1.0.6",
     "@types/chai": "^4.2.4",
-    "@types/hapi": "^17.0.19",
+    "@types/hapi": "^18.0.3",
     "@types/mocha": "^5.2.7",
     "@types/sinon": "^7.5.0",
     "chai": "^4.2.0",
-    "hapi": "^17.5.4",
+    "hapi": "^18.1.0",
     "mocha": "^6.2.2",
     "sinon": "^7.5.0",
     "ts-node": "^8.4.1",

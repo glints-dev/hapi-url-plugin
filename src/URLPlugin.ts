@@ -46,7 +46,7 @@ const URLPlugin: Hapi.Plugin<URLPluginOptions> & Hapi.PluginNameVersion = {
 
     server.ext('onRequest', async (request, h) => {
       const proto = resolveProto(request);
-      const url = new URL(`${proto}://${request.info.host}${request.url.path}`);
+      const url = new URL(`${proto}://${request.info.host}${request.path}${request.url.search}`);
       request.plugins.URLPlugin = { url };
       return h.continue;
     });
