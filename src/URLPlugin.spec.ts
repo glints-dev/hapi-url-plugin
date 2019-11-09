@@ -9,7 +9,7 @@ import URLPlugin from './URLPlugin';
 
 describe('URLPlugin', () => {
   let server: Hapi.Server;
-  let spy: Sinon.SinonSpy;
+  let spy: Sinon.SinonSpy<[any, Hapi.ResponseToolkit]>;
 
   before(() => {
     spy = Sinon.spy((request: any, h: Hapi.ResponseToolkit) => h.continue);
