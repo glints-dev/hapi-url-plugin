@@ -15,7 +15,7 @@
     "test": "mocha --require ts-node/register/type-check --recursive \"src/**/*.spec.ts\""
   },
   "devDependencies": {
-    "@glints/tslint-rules": "^1.0.5",
+    "@glints/tslint-rules": "^1.0.6",
     "@types/chai": "^4.1.5",
     "@types/hapi": "^17.0.19",
     "@types/mocha": "^5.2.5",
