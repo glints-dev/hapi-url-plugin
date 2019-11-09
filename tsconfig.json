@@ -4,6 +4,7 @@
     "lib":[
       "es2018"
     ],
+    "module": "commonjs",
     "outDir": "dist",
     "sourceMap": true,
     "sourceRoot": "src",
