@@ -16,12 +16,12 @@
   },
   "devDependencies": {
     "@glints/tslint-rules": "^1.0.6",
+    "@hapi/hapi": "^18.4.0",
     "@types/chai": "^4.2.4",
-    "@types/hapi": "^18.0.3",
+    "@types/hapi__hapi": "^18.2.6",
     "@types/mocha": "^5.2.7",
     "@types/sinon": "^7.5.0",
     "chai": "^4.2.0",
-    "hapi": "^18.1.0",
     "mocha": "^6.2.2",
     "sinon": "^7.5.0",
     "ts-node": "^8.4.1",
@@ -29,7 +29,7 @@
     "typescript": "^3.7.2"
   },
   "peerDependencies": {
-    "hapi": ">= 17"
+    "@hapi/hapi": ">= 18"
   },
   "publishConfig": {
     "access": "public"

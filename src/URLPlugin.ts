@@ -1,6 +1,6 @@
 import { URL } from 'url';
 
-import * as Hapi from 'hapi';
+import * as Hapi from '@hapi/hapi';
 
 export interface URLPluginOptions {
   numProxies: number;
@@ -10,7 +10,7 @@ export interface URLPluginRequestState {
   url: URL;
 }
 
-declare module 'hapi' {
+declare module '@hapi/hapi' {
   interface PluginsStates {
     URLPlugin?: URLPluginRequestState;
   }

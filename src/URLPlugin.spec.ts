@@ -3,7 +3,7 @@ import 'mocha';
 import { assert } from 'chai';
 import * as Sinon from 'sinon';
 
-import * as Hapi from 'hapi';
+import * as Hapi from '@hapi/hapi';
 
 import URLPlugin from './URLPlugin';
 
