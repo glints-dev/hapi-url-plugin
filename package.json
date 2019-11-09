@@ -1,6 +1,6 @@
 {
   "name": "@glints/hapi-url-plugin",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A plugin that attempts to construct a complete URL object for an incoming request.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
