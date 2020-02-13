@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@glints/tslint-rules": "^1.0.6",
-    "@hapi/hapi": "^18.4.0",
+    "@hapi/hapi": "^19.1.1",
     "@types/chai": "^4.2.4",
     "@types/hapi__hapi": "^18.2.6",
     "@types/mocha": "^5.2.7",
