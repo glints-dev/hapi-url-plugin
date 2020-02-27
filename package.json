@@ -20,7 +20,7 @@
     "@types/chai": "^4.2.4",
     "@types/hapi__hapi": "^18.2.6",
     "@types/mocha": "^5.2.7",
-    "@types/sinon": "^7.5.0",
+    "@types/sinon": "^7.5.2",
     "chai": "^4.2.0",
     "mocha": "^6.2.2",
     "sinon": "^7.5.0",
